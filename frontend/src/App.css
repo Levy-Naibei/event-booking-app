@@ -1,0 +1,98 @@
+* { box-sizing: border-box; }
+
+.main {
+  margin-top: 6rem;  
+}
+
+/* Navbar */
+.navb {
+    background-color: #2874A6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.logo h3{
+    margin: 0 3rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.nav_item {
+    margin-right: 5rem;
+}
+
+.nav_item ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+   /* flex-wrap: wrap; */
+}
+
+.nav_item ul li {
+    margin-left: 2rem;
+}
+
+.nav_item ul li a {
+    text-decoration: none;
+    color: azure;
+    text-align: center;
+}
+
+.logout-btn:hover,
+.nav_item a:hover {
+    color: rgb(39, 33, 33);
+}
+
+.auth {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.logout-btn {
+  color: azure;
+  cursor: pointer;
+}
+
+/* login or register */
+.auth-container {
+    width: 20rem;
+    max-width: 60%;
+    margin: 15% auto 0;
+    display: block;
+    
+}
+
+.input input {
+    display: block;
+    padding: 0.6rem;
+    margin: 0.4rem;
+    width: 100%;
+}
+
+.action button {
+    cursor: pointer;
+    background-color: #2874A6;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0.8rem 0.4rem 0.4rem;
+    color: white;
+    width: 100%;
+}
+
+.action button:hover,
+.action button:active {
+    background: rgb(35, 121, 121);
+}
+
+/* harmburger menu */

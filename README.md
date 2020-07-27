@@ -4,12 +4,36 @@
 
 The app is built with graphQl, Express, React, Node, MongoDb(MERN)
 
-Client/Frontend is still under construction
+### Getting started with Client
+
+```
+git clone https://github.com/Levy-Naibei/event-booking-app.git
+```
+
+```
+cd event-booking-app/frontend
+```
+
+```
+Run yarn install
+```
+
+```
+Run yarn start
+```
+
+```
+Create account and add events
+```
+
+```
+***more features on the way***
+```
 
 ### Getting started with Server
 
 ```
-git clone https://github.com/Levy-Naibei/event-booking-app.git
+Open another terminal
 ```
 
 ```
