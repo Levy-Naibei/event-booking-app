@@ -1,8 +1,8 @@
 ## Event Booking App
 
-> Book your events using this simple but powerful web app.
+> Book your events using this simple but powerful web api.
 
-The app is built with graphQl, Express, React, Node, MongoDb(MERN)
+The api is built with graphQl, Express, Node, MongoDb. Frontend in Reactjs
 
 ### Getting started with Client
 
